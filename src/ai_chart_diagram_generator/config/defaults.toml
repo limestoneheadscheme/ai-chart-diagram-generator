@@ -1,0 +1,10 @@
+# Defaults for ai-chart-diagram-generator.
+# Env overrides use the ACDG_ prefix (e.g. ACDG_LOG_LEVEL=DEBUG).
+log_level = "INFO"
+export_root = "~/Documents/acdg"
+model_backend = "local-gguf"
+model_path = ""            # set to a .gguf path to use a local model
+llm_timeout_s = 30.0
+render_timeout_s = 2.0
+max_nodes = 512
+preferred_renderer = "cpp-shim"
