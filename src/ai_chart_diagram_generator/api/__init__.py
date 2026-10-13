@@ -1,0 +1,1 @@
+"""Thin HTTP-less handlers — request in, response out. No business logic."""
