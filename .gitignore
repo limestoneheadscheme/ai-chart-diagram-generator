@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtualenvs
+.venv/
+venv/
+ENV/
+env/
+.env
+env.bak/
+venv.bak/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Renderer output artifacts
+renders/
+exports/
+*.svg.tmp
+*.png.tmp
+*.pdf.tmp
+
+# Local model cache (LLM weights, adapters, prompt packs)
+model_cache/
+.chart_cache/
+*.gguf
+*.safetensors
+*.onnx
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local config overrides
+config/local.toml
+config/secrets.toml
