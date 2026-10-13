@@ -1,0 +1,1 @@
+"""Entry points: CLI, desktop launcher, and app wiring."""
